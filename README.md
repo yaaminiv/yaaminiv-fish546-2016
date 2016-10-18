@@ -9,4 +9,6 @@ For Autumn 2016 FISH 546 Course.
 
 `scripts/`
 
-`jupyter-notebook/`
+`tutorials/`
+
+`notebooks/`
