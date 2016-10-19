@@ -1,0 +1,12 @@
+PASS	Basic Statistics	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
+PASS	Per base sequence quality	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
+FAIL	Per tile sequence quality	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
+PASS	Per sequence quality scores	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
+FAIL	Per base sequence content	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
+WARN	Per sequence GC content	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
+PASS	Per base N content	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
+PASS	Sequence Length Distribution	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
+FAIL	Sequence Duplication Levels	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
+WARN	Overrepresented sequences	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
+PASS	Adapter Content	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
+FAIL	Kmer Content	filtered_108A_Female_Mix_GGCTAC_L004_R1.fastq
