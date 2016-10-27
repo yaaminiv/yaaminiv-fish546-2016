@@ -63,7 +63,8 @@ Phel_diffexpressed_transcriptome$pvalue <- NULL
 Phel_diffexpressed_transcriptome$padj <- NULL
 head(Phel_diffexpressed_transcriptome) #confirm column removal
 
-#Step 10: Write out Phel_diffexpressed_transcritpome as a tab file
-write.table(Phel_diffexpressed_transcriptome, "Phel_diffexpressed_transcriptome.tab", col.names = T)
+#Step 10: Write out Phel_diffexpressed_transcritpome as a tab file. Need to remove row and column names using "row.names" and "col.names" arguments
+write.table(Phel_diffexpressed_transcriptome, "Phel_diffexpressed_transcriptome.tab", col.names = F, row.names = F)
+?write.table
 
 ### NOTE: The Phel_diffexpressed_transcriptome.tab file will be converted into a fasta file so I can use it as a database in BLAST ###
