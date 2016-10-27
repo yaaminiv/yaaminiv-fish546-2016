@@ -32,3 +32,6 @@ tmp.sig <- deseq2.res[!is.na(deseq2.res$padj) & deseq2.res$padj <= 0.05, ]
 points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="violetred")
 # 2 FC lines
 abline(h=c(-1,1), col="blue")
+
+#Step 7: Create table with differentially expressed contigs
+write.table(tmp.sig, "Phel_DEGlist.tab", row.names = T)
