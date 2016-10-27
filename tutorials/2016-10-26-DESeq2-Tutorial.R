@@ -42,8 +42,6 @@ write.table(tmp.sig, "Phel_DEGlist.tab", row.names = T)
 full_transcriptome <- read.table("Galaxy8-[Phel_transcriptome.tab].tabular") #tab file of full seastar transcriptome
 diffexpressedgenes <- read.table("Phel_DEGlist.tab") #tab file of differentially expressed genes in seastars with wasting disease
 
-#tasks to complete: make contig names its own column
-
 colnames(full_transcriptome) <- c("contig", "sequence") #add column names to full_transcriptome
 head(full_transcriptome) #confirm addition of column names
 
@@ -55,7 +53,17 @@ head(diffexpressedgenes) #confirm addition of column names
 
 Phel_diffexpressed_transcriptome <- merge(x = diffexpressedgenes, y = full_transcriptome, by = "contig") #merge two dataframes together
 
-#Step 9: Write out Phel_diffexpressed_transcritpome as a tab file
+#Step 9: Remove all columns that are not "contig" and "sequence" (ie. remove "baseMean", "log2FoldChange", "lfcSE", "stat", "pvalue", "padj")
+
+Phel_diffexpressed_transcriptome$baseMean <- NULL
+Phel_diffexpressed_transcriptome$log2FoldChange <- NULL
+Phel_diffexpressed_transcriptome$lfcSE <- NULL
+Phel_diffexpressed_transcriptome$stat <- NULL
+Phel_diffexpressed_transcriptome$pvalue <- NULL
+Phel_diffexpressed_transcriptome$padj <- NULL
+head(Phel_diffexpressed_transcriptome) #confirm column removal
+
+#Step 10: Write out Phel_diffexpressed_transcritpome as a tab file
 write.table(Phel_diffexpressed_transcriptome, "Phel_diffexpressed_transcriptome.tab", col.names = T)
 
 ### NOTE: The Phel_diffexpressed_transcriptome.tab file will be converted into a fasta file so I can use it as a database in BLAST ###
