@@ -24,3 +24,5 @@ data/filtered_106A_Female_Mix_GATCAG_L004_R1.fastq
 *.pin
 
 *.psq
+
+data/uniprot-all.fasta
