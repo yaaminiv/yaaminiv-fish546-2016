@@ -32,7 +32,7 @@ For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) g
 ### Directory Structure
 For more information regarding each subdirectory, see that subdirectory's `README.md` file
 
-`data/` (all files in .gitignore, but directory on local machine is as follows)
+`data/` (all files in `.gitignore`, but directory on local machine is as follows)
 > *O. lurida* .fastq files
 
 > *O. lurida* transcriptome
