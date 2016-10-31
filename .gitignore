@@ -26,3 +26,33 @@ data/filtered_106A_Female_Mix_GATCAG_L004_R1.fastq
 *.psq
 
 data/uniprot-all.fasta
+
+*.fasta
+
+tutorials/DESeq2 tutorial/data/Phel_diffexpressed_transcriptome.nhr
+
+tutorials/DESeq2 tutorial/data/Phel_diffexpressed_transcriptome.tab
+
+tutorials/DESeq2 tutorial/data/Galaxy8-[Phel_transcriptome.tab].tabular
+
+tutorials/DESeq2 tutorial/data/Galaxy8-[Phel_transcriptome.tab].tabular
+
+tutorials/DESeq2 tutorial/data/Galaxy9-[nohead_Phel_DEGlist.tab].tabular
+
+tutorials/Phel_diffexpressed_transcriptome.fasta
+
+tutorials/Phel_diffexpressed_transcriptome.nhr
+
+tutorials/DESeq2 tutorial/data/Phel_diffexpressed_transcriptome.nin
+
+*.nhr
+
+*.fasta
+
+*.nsq
+
+*.fasta
+
+*.fasta
+
+tutorials/Phel_diffexpressed_transcriptome.tab
