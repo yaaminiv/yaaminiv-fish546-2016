@@ -2,9 +2,11 @@
 This subdirectory hosts tutorials that walk the reader through several different bioinformatic analyses. Tutorials included are:
 
 `BLAST-tutorial`
+
 `2016-10-11-Blast-Tutorial-Part-1.ipynb`
 - Downloading data
 - Downloading Uniprot database
+
 `2016-10-11-Blast-Tutorial-Part-2.ipynb`
 - How to create a BLAST database
 - Script for running BLAST analysis
@@ -13,8 +15,10 @@ This subdirectory hosts tutorials that walk the reader through several different
 - Sample transcriptome (`Oly-transcriptome-2k.fa`)
 
 `DESeq2-tutorial`
+
 `2016-10-26-DESeq2-Tutorial.R`
 - How to run DESeq2 in R to analyze differential expression
+
 `2016-10-26-DESeq2-Tutorial-Part-2.ipynb`
 - Taking results from R and running a BLAST on differentially expressed sequences
 `data` (hosted in `.gitignore`)
