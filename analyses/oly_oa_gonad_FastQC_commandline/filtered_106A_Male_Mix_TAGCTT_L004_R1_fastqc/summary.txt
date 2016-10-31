@@ -1,0 +1,12 @@
+PASS	Basic Statistics	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
+PASS	Per base sequence quality	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
+FAIL	Per tile sequence quality	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
+PASS	Per sequence quality scores	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
+FAIL	Per base sequence content	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
+PASS	Per sequence GC content	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
+PASS	Per base N content	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
+PASS	Sequence Length Distribution	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
+FAIL	Sequence Duplication Levels	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
+WARN	Overrepresented sequences	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
+PASS	Adapter Content	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
+FAIL	Kmer Content	filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq.gz
