@@ -33,20 +33,25 @@ For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) g
 For more information regarding each subdirectory, see that subdirectory's `README.md` file
 
 `data/` (all files in .gitignore, but directory on local machine is as follows)
-> *O. lurida* .fastq files;
-> *O. lurida* transcriptome;
+> *O. lurida* .fastq files
+
+> *O. lurida* transcriptome
+
 > files for BLAST tutorial
 
 `analyses/`
-> oly_oa_gonad_FASTQC: *O. lurida* analysis reports from FastQC interactive application;
-> oly_oa_gonad_commandline: *O. lurida* analysis reports generated using FastQC in the command line;
+> oly_oa_gonad_FASTQC: *O. lurida* analysis reports from FastQC interactive application
+
+> oly_oa_gonad_commandline: *O. lurida* analysis reports generated using FastQC in the command line
+
 > oly_oa_gonad_multiqc: FastQC analyses compiled into one report using MultiQC
 
 `scripts/`
 > empty as of 2016-10-20
 
 `tutorials/`
-> BLAST tutorial;
+> BLAST tutorial
+
 > DESeq2 tutorial
 
 `notebooks/`
