@@ -37,8 +37,6 @@ For more information regarding each subdirectory, see that subdirectory's `READM
 
 > *O. lurida* transcriptome
 
-> files for BLAST tutorial
-
 `analyses/`
 > oly_oa_gonad_FASTQC: *O. lurida* analysis reports from FastQC interactive application
 
@@ -50,9 +48,9 @@ For more information regarding each subdirectory, see that subdirectory's `READM
 > empty as of 2016-10-20
 
 `tutorials/`
-> BLAST tutorial
+> BLAST tutorial + acccompanying data files
 
-> DESeq2 tutorial
+> DESeq2 tutorial + acccompanying data files
 
 `notebooks/`
 > Jupyter (iPython) notebooks that detail reproducible methods used for data analysis
