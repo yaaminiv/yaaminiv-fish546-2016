@@ -26,13 +26,13 @@ For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) g
 - Run Kallisto for count data
 
 **Week 6**:
-- Analyze data files for differential expression using DESeq1
+- Analyze data files for differential expression using DESeq2
 - Statistical analyses for differential expression
 
 ### Directory Structure
 For more information regarding each subdirectory, see that subdirectory's `README.md` file
 
-`data/` (all files in `.gitignore`, but directory on local machine is as follows)
+`data/` (all files in `.gitignore`, but directory on local machine includes the following)
 > *O. lurida* .fastq files
 
 > *O. lurida* transcriptome
