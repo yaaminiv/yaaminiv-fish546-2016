@@ -14,15 +14,15 @@ For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) g
 
 ### Project Timeline
 
-**Week 3**: 
+[**Week 3**](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-10-19-oly-gonad-OA-part-1-FASTQC-results.ipynb): 
 - Run FastQC analysis
 
-**Week 4**: 
+[**Week 4**](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-10-13-oly-gonad-OA-part-1.ipynb): 
 - Run MultiQC analysis
 - Begin to trim sequences to improve quality
 
 **Week 5**: 
-- Run BLAST against specialized transcriptome from Uniprot database
+- [Run BLAST against specialized transcriptome from Uniprot database](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-10-28-oly-gonad-OA-part-2-BLAST.ipynb)
 - Run Kallisto for count data
 
 **Week 6**:
