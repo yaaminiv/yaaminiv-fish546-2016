@@ -1,4 +1,4 @@
-# Yaamini's FISH 546 Repository
+# Yaamini's FISH 546 Repository: Annotation of *Ostrea lurida* transcriptome
 
 For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) gonad nucleotide sequences with accompanying quality scores (.fastq files). These sequences are from male and female specimens, exposed to either control or ocean acidification conditions. I also have a previously assembled *O. lurida* transcriptome for comparison.
 
