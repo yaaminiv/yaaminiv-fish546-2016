@@ -32,12 +32,12 @@ For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) g
 ### Directory Structure
 For more information regarding each subdirectory, see that subdirectory's `README.md` file
 
-`data/` (all files in `.gitignore`, but directory on local machine includes the following)
+`data/` (all files in [`.gitignore`](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/.gitignore), but directory on local machine includes the following)
 > *O. lurida* .fastq files
 
 > *O. lurida* transcriptome
 
-`analyses/`
+[`analyses/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses)
 > oly_oa_gonad_FASTQC: *O. lurida* analysis reports from FastQC interactive application
 
 > oly_oa_gonad_commandline: *O. lurida* analysis reports generated using FastQC in the command line
@@ -47,10 +47,10 @@ For more information regarding each subdirectory, see that subdirectory's `READM
 `scripts/`
 > empty as of 2016-10-20
 
-`tutorials/`
+[`tutorials/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/tutorials)
 > BLAST tutorial + acccompanying data files
 
 > DESeq2 tutorial + acccompanying data files
 
-`notebooks/`
+[`notebooks/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/notebooks)
 > Jupyter (iPython) notebooks that detail reproducible methods used for data analysis
