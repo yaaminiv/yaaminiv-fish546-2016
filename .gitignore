@@ -15,10 +15,6 @@ data/filtered_106A_Female_Mix_GATCAG_L004_R1.fastq
 
 *.psq
 
-*.fa
-
-*.fa
-
 *.phr
 
 *.pin
@@ -56,3 +52,5 @@ tutorials/DESeq2 tutorial/data/Phel_diffexpressed_transcriptome.nin
 *.fasta
 
 tutorials/Phel_diffexpressed_transcriptome.tab
+
+tutorials/BLAST-tutorial/data/Oly-transcriptome-2k.fa 
