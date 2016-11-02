@@ -40,7 +40,7 @@ For more information regarding each subdirectory, see that subdirectory's `READM
 [`analyses/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses)
 > oly_oa_gonad_FASTQC: *O. lurida* analysis reports from FastQC interactive application
 
-> oly_oa_gonad_commandline: *O. lurida* analysis reports generated using FastQC in the command line
+> oly_oa_gonad_FASTQC_commandline: *O. lurida* analysis reports generated using FastQC in the command line
 
 > oly_oa_gonad_multiqc: FastQC analyses compiled into one report using MultiQC
 
