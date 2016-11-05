@@ -29,18 +29,6 @@ For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) g
 - Analyze data files for differential expression using DESeq2
 - Statistical analyses for differential expression
 
-**Week 7**
-- Based on differential expression, analyze lncRNAs and miRNAs
-
-**Week 8**
-- Continue lncRNA and miRNA analysis
-
-**Week 9**
-- Additional analyses, if needed
-
-**Week 10**
-- Create findings report
-
 ### Directory Structure
 For more information regarding each subdirectory, see that subdirectory's `README.md` file
 
