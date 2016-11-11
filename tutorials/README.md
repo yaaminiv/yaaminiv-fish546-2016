@@ -28,3 +28,10 @@ This subdirectory hosts tutorials that walk the reader through several different
 - Files created using Galaxy (`Galaxy*.tabular`)
      - explanation of file creation in `2016-10-26-DESeq2-Tutorial.R`
 - Sample BLAST databse from `Phel_transcriptome.fasta`
+
+[`CoGe Tutorial`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/tutorials/COGE-tutorial)
+
+[`2016-11-10-COGE-Tutorial.ipynb`](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/tutorials/COGE-tutorial/2016-11-10-COGE-Tutorial.ipynb)
+- Using CoGe to identify methylated sequences
+- blastn with sequence to find matches
+- tutorial screenshots found [here](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/tutorials/COGE-tutorial/CoGe-tutorial-images)
