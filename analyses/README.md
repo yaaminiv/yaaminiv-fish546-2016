@@ -23,5 +23,6 @@ Each `.fastq` file has its own folder that stores `kallisto quant` output
  - [kallisto-male-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/kallisto-male-108): count data for Male_106 .fastq file
   
 [`oly_oa_gonad_DESeq2`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_DESeq2)
+
 R scripts, graphs and `.tab` files associated with DeSeq2 analysis. Each comparison (all treatments, various pairwise comparisons) have their own R script that runs through DESeq2 analysis and generates a graph and `.tab` file for differentially expressed genes at a given level of significance.
 
