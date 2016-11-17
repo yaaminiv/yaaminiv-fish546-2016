@@ -43,5 +43,33 @@ points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="violetre
 abline(h=c(-1,1), col="blue")
 dev.off()
 
-#Step 7: Create table with differentially expressed contigs
+#Step 8: Create table with differentially expressed contigs
 write.table(tmp.sig, "/Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/oly_oa_gonad_DESeq2/alltreatments_DEG.tab", row.names = T)
+
+##Now, I will adjust the p-value to see what genes are differentially expressed at a different significance level.
+
+#Step 5: Count number of hits with adjusted p-value less than 0.5
+dim(deseq2.res[!is.na(deseq2.res$padj) & deseq2.res$padj <= 0.5, ])
+
+#Step 6: Create plot
+tmp <- deseq2.res
+#The main plot
+plot(tmp$baseMean, tmp$log2FoldChange, pch=20, cex=0.45, ylim=c(-3, 3), log="x", col="darkgray", main="Differentially Expressed Genes in 106 vs. 108  (pval ≤ 0.5)", xlab="mean of normalized counts", ylab="Log2 Fold Change")
+#Getting the significant points and plotting them again so they're a different color
+tmp.sig <- deseq2.res[!is.na(deseq2.res$padj) & deseq2.res$padj <= 0.5, ]
+points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="violetred")
+# 2 FC lines
+abline(h=c(-1,1), col="blue")
+
+#Step 7: Save plot as a new png file
+png("/Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/oly_oa_gonad_DESeq2/alltreatments-p0.5-.png", width = 800, height = 800)
+plot(tmp$baseMean, tmp$log2FoldChange, pch=20, cex=0.45, ylim=c(-3, 3), log="x", col="darkgray", main="Differentially Expressed Genes in 106 vs. 108  (pval ≤ 0.5)", xlab="mean of normalized counts", ylab="Log2 Fold Change")
+#Getting the significant points and plotting them again so they're a different color
+tmp.sig <- deseq2.res[!is.na(deseq2.res$padj) & deseq2.res$padj <= 0.5, ]
+points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="violetred")
+# 2 FC lines
+abline(h=c(-1,1), col="blue")
+dev.off()
+
+#Step 8: Create table with differentially expressed contigs
+write.table(tmp.sig, "/Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/oly_oa_gonad_DESeq2/alltreatments-p0.5-_DEG.tab", row.names = T)
