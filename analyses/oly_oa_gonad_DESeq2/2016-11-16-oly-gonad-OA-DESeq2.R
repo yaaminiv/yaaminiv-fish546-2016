@@ -13,7 +13,6 @@ data <- data[,-1]
 deseq2.colData <- data.frame(condition=factor(c(rep("106", 2), rep("108", 2))), type=factor(rep("single-read", 4)))
 rownames(deseq2.colData) <- colnames(data)
 deseq2.dds <- DESeqDataSetFromMatrix(countData = data, colData = deseq2.colData, design = ~ condition)
-?DESeqDataSetFromMatrix
 
 #Step 4: Run analysis and confirm results
 deseq2.dds <- DESeq(deseq2.dds)
@@ -27,12 +26,22 @@ dim(deseq2.res[!is.na(deseq2.res$padj) & deseq2.res$padj <= 0.05, ])
 #Step 6: Create plot
 tmp <- deseq2.res
 #The main plot
-plot(tmp$baseMean, tmp$log2FoldChange, pch=20, cex=0.45, ylim=c(-3, 3), log="x", col="darkgray", main="DEG Virus Exposure  (pval <= 0.05)", xlab="mean of normalized counts", ylab="Log2 Fold Change")
+plot(tmp$baseMean, tmp$log2FoldChange, pch=20, cex=0.45, ylim=c(-3, 3), log="x", col="darkgray", main="Differentially Expressed Genes in 106 vs. 108  (pval <= 0.05)", xlab="mean of normalized counts", ylab="Log2 Fold Change")
 #Getting the significant points and plotting them again so they're a different color
 tmp.sig <- deseq2.res[!is.na(deseq2.res$padj) & deseq2.res$padj <= 0.05, ]
 points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="violetred")
 # 2 FC lines
 abline(h=c(-1,1), col="blue")
 
+#Step 7: Save plot as a new data file
+pdf("/Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/oly_oa_gonad_DESeq2/alltreatments.pdf", width = 8, height = 8)
+plot(tmp$baseMean, tmp$log2FoldChange, pch=20, cex=0.45, ylim=c(-3, 3), log="x", col="darkgray", main="Differentially Expressed Genes in 106 vs. 108  (pval <= 0.05)", xlab="mean of normalized counts", ylab="Log2 Fold Change")
+#Getting the significant points and plotting them again so they're a different color
+tmp.sig <- deseq2.res[!is.na(deseq2.res$padj) & deseq2.res$padj <= 0.05, ]
+points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="violetred")
+# 2 FC lines
+abline(h=c(-1,1), col="blue")
+dev.off()
+
 #Step 7: Create table with differentially expressed contigs
-write.table(tmp.sig, "Phel_DEGlist.tab", row.names = T)
+write.table(tmp.sig, "/Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/oly_oa_gonad_DESeq2/alltreatments_DEG.tab", row.names = T)
