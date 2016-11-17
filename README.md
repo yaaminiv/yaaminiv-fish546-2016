@@ -22,12 +22,14 @@ For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) g
 - [Begin to trim sequences to improve quality](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-10-13-oly-gonad-OA-part-1.ipynb) (in progress as of 2016-11-04, completion date TBD)
 
 **Week 5-6**: 
-- [Run BLAST against specialized transcriptome from Uniprot database](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-10-28-oly-gonad-OA-part-2-BLAST.ipynb) (in progress as of 2016-11-11)
+- [Run BLAST against specialized transcriptome from Uniprot database](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-10-28-oly-gonad-OA-part-2-BLAST.ipynb)
 - [Run Kallisto for count data](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-11-04-oly-gonad-OA-part3-kallisto.ipynb)
 
 **Week 7**:
-- Analyze data files for differential expression using DESeq2
-- Statistical analyses for differential expression
+- [Analyze data files for differential expression using DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-11-11-oly-gonad-OA-part4-differential-expression.ipynb)
+
+**Week 8**
+- TBD
 
 ### Directory Structure
 For more information regarding each subdirectory, see that subdirectory's `README.md` file
