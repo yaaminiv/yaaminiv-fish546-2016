@@ -42,11 +42,21 @@ For more information regarding each subdirectory, see that subdirectory's `READM
 > `kallisto quant` count data (.txt files)
 
 [`analyses/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses)
-> oly_oa_gonad_FASTQC: *O. lurida* analysis reports from FastQC interactive application
+> [oly_oa_gonad_FASTQC](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_FASTQC): *O. lurida* analysis reports from FastQC interactive application
 
-> oly_oa_gonad_FASTQC_commandline: *O. lurida* analysis reports generated using FastQC in the command line
+> [oly_oa_gonad_FASTQC_commandline](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_FastQC_commandline): *O. lurida* analysis reports generated using FastQC in the command line
 
-> oly_oa_gonad_multiqc: FastQC analyses compiled into one report using MultiQC
+> [oly_oa_gonad_multiqc](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_MultiQC): FastQC analyses compiled into one report using MultiQC
+
+> [blastx output](https://raw.githubusercontent.com/yaaminiv/yaaminiv-fish546-2016/master/analyses/blastx-11-14-best-matches) for best matches between *O. lurida* transcriptome and Uniprot database with gene ontology information
+
+> `kallisto quant` analysis results
+  - [kallisto-female-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/kallisto-female-106): count data for Female_106 .fastq file
+  - [kallisto-male-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/kallisto-male-106): count data for Male_106 .fastq file
+  - [kallisto-female-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/kallisto-female-108): count data for Female_108 .fastq file
+  - [kallisto-male-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/kallisto-male-108): count data for Male_106 .fastq file
+  
+> [oly_oa_gonad_DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_DESeq2): R scripts, graphs and .tab files associated with DeSeq2 analysis
 
 `scripts/`
 > empty as of 2016-10-20
