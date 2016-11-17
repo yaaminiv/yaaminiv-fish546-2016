@@ -33,8 +33,8 @@ points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="violetre
 # 2 FC lines
 abline(h=c(-1,1), col="blue")
 
-#Step 7: Save plot as a new data file
-pdf("/Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/oly_oa_gonad_DESeq2/alltreatments.pdf", width = 8, height = 8)
+#Step 7: Save plot as a new png file
+png("/Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/oly_oa_gonad_DESeq2/alltreatments.png", width = 800, height = 800)
 plot(tmp$baseMean, tmp$log2FoldChange, pch=20, cex=0.45, ylim=c(-3, 3), log="x", col="darkgray", main="Differentially Expressed Genes in 106 vs. 108  (pval <= 0.05)", xlab="mean of normalized counts", ylab="Log2 Fold Change")
 #Getting the significant points and plotting them again so they're a different color
 tmp.sig <- deseq2.res[!is.na(deseq2.res$padj) & deseq2.res$padj <= 0.05, ]
