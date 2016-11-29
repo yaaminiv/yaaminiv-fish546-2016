@@ -29,7 +29,10 @@ For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) g
 - [Analyze data files for differential expression using DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-11-11-oly-gonad-OA-part4-differential-expression.ipynb)
 
 **Week 8**
-- TBD
+- [Rerun `kallisto quant` and DESeq2 with new values](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-11-29-oly-gonad-OA-part5-rerun-kallisto-and-DESeq2.ipynb)
+
+**Week 9**
+- ??
 
 ### Directory Structure
 For more information regarding each subdirectory, see that subdirectory's `README.md` file
@@ -40,6 +43,8 @@ For more information regarding each subdirectory, see that subdirectory's `READM
 > *O. lurida* transcriptome
 
 > `kallisto quant` count data (.txt files)
+
+> `kallisto quant` count data from 11-29-2016 (.txt files)
 
 [`analyses/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses)
 > [oly_oa_gonad_FASTQC](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_FASTQC): *O. lurida* analysis reports from FastQC interactive application
@@ -57,6 +62,14 @@ For more information regarding each subdirectory, see that subdirectory's `READM
   - [kallisto-male-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/kallisto-male-108): count data for Male_106 .fastq file
   
 > [oly_oa_gonad_DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_DESeq2): R scripts, graphs and .tab files associated with DeSeq2 analysis
+
+> 11-29-2016 `kallisto quant` analysis results
+  - [11-29-kallisto-female-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/11-29-kallisto-female-106): revised count data for Female_106 .fastq file
+  - [11-29-kallisto-male-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/11-29-kallisto-male-106): revised count data for Male_106 .fastq file
+  - [11-29-kallisto-female-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/11-29-kallisto-female-108): revised count data for Female_108 .fastq file
+  - [11-29-kallisto-male-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/11-29-kallisto-male-108): revised count data for Male_106 .fastq file
+  
+> [11-29-oly-oa-gonad-DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/11-29-oly-oa-gonad-DESeq2): revised R scripts, graphs and .tab files associated with DeSeq2 analysis
 
 `scripts/`
 > empty as of 2016-10-20
