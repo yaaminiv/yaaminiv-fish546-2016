@@ -30,3 +30,14 @@ This subdirectory hosts the Jupyter (iPython) notebooks that detail reproducible
  - Male_106 vs. Male_108
  - Female_106 vs. Male_106
  - Female_108 vs. Male_108
+ 
+[`2016-11-29-oly-gonad-OA-part5-rerun-kallisto-and-DESeq2.ipynb`](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-11-29-oly-gonad-OA-part5-rerun-kallisto-and-DESeq2.ipynb)
+- Ran Kallisto to get count data with a revised standard deviation of 10%
+- Took count data and ran through DESeq2
+- Identified genes differentially expressed at different levels of significance
+- Compared the following sets:
+ - All .fastq files
+ - Female_106 vs. Female_108
+ - Male_106 vs. Male_108
+ - Female_106 vs. Male_106
+ - Female_108 vs. Male_108
