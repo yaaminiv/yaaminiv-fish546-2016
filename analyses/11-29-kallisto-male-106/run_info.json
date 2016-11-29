@@ -1,0 +1,9 @@
+{
+	"n_targets": 148557,
+	"n_bootstraps": 0,
+	"n_processed": 59446949,
+	"kallisto_version": "0.43.0",
+	"index_version": 10,
+	"start_time": "Tue Nov 29 09:47:26 2016",
+	"call": "/Applications/kallisto/kallisto quant -i /Users/yaaminivenkataraman/Documents/School/Year1/FISH-546/yaaminiv-fish546-2016/data/kallisto-index-OlyO-v6 -o /Users/yaaminivenkataraman/Documents/School/Year1/FISH-546/yaaminiv-fish546-2016/analyses/11-29-kallisto-male-106 --single -l 76 -s .10 /Users/yaaminivenkataraman/Documents/School/Year1/FISH-546/yaaminiv-fish546-2016/data/filtered_106A_Male_Mix_TAGCTT_L004_R1.fastq"
+}
