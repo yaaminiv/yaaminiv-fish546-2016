@@ -1,0 +1,2 @@
+variable = I am hungry
+echo $variable
