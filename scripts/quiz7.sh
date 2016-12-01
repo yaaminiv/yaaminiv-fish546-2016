@@ -24,7 +24,7 @@ mkdir "$directoryName"
 
 #I will check to see if this directory was made by listing the files in my analyses directory.
 
-ls analyses
+ls
 
 #Using a pipe with `find` and `xargs`, I will take the eight directories I want to move, and relocate them to my irrelevant-analyses folder. The `-type d` argument for `find` allows me to specify that I only want the command to search for directories that match my query, *kallisto*.
 
