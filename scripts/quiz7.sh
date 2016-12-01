@@ -28,10 +28,10 @@ ls
 
 #Using a pipe with `find` and `xargs`, I will take the eight directories I want to move, and relocate them to my irrelevant-analyses folder. The `-type d` argument for `find` allows me to specify that I only want the command to search for directories that match my query, *kallisto*.
 
-find *kallisto* -type d | xargs mv irrelevant-analyses
+find *kallisto* -type d | xargs -I '{}' mv '{}' irrelevant-analyses
 
 #To see if this worked, I will list the content of irrelevant-analyses
 
-ls irrelevant-analyses
-
+cd /Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/irrelevant-analyses
+ls
 
