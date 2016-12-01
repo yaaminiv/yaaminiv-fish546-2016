@@ -3,7 +3,7 @@ set -e #terminate script if any command exits with a nonzero exit status
 set -u #abort script if variable's value is unset
 set -o pipefail #nonzero exit status in a pipe will cause the entire pipe to return a nonzero status
 
-echo After completing DESeq2 several times, I have a lot of files that I no longer need cluttering up my repository. There are eight folders in particular that I do not want to see right away when I open my analysis folder. In this script, I will move those folders to a new directory called irrelevant-analyses.
+#After completing DESeq2 several times, I have a lot of files that I no longer need cluttering up my repository. There are eight folders in particular that I do not want to see right away when I open my analysis folder. In this script, I will move those folders to a new directory called irrelevant-analyses.
 
 #Set variables
 echo Set variables
