@@ -73,3 +73,11 @@ data/OlyO_v6_transcriptome_contigsonly.tabular
 data/alltreatments_DEG_Uniprot.tab
 
 data/alltreatments_DEG_Uniprot_nohead.tab
+
+data/alltreatments_DEG_Sequences_nohead.tab
+
+data/alltreatments_DEG_Sequences_Uniprot_nohead.tab
+
+data/alltreatments_DEG_Sequences_Uniprot.tab
+
+data/alltreatments_DEG_Sequences.tab
