@@ -69,3 +69,7 @@ analyses/blastx-11-06
 data/Galaxy-OlyO_v6_transcriptome.tabular
 
 data/OlyO_v6_transcriptome_contigsonly.tabular
+
+data/alltreatments_DEG_Uniprot.tab
+
+data/alltreatments_DEG_Uniprot_nohead.tab
