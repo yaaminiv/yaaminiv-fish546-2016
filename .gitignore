@@ -65,3 +65,7 @@ analyses/blastx-11-06
 
 analyses/blastx-11-06
 .Rproj.user
+
+data/Galaxy-OlyO_v6_transcriptome.tabular
+
+data/OlyO_v6_transcriptome_contigsonly.tabular
