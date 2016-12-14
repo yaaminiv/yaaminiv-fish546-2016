@@ -2,7 +2,8 @@
 This subdirectory contains the final results from various analyses. Results are split into the following categories:
 
 [blastx](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/1-blastx)
-> - blastx-11-14-best-matches: Matched contigs in *O. lurida* transcriptome with Uniprot Database and gene ontology information
+> - blastx-11-14-best-matches
+    - Matched contigs in *O. lurida* transcriptome with Uniprot Database and gene ontology information
 
 [Differentially expressed genes from DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/2-DESeq2-differentially-expressed-genes)
 > - [List of differentially expressed genes between control and ocean acidficiation conditions with a p-value ≤ 0.05](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/results/2-DESeq2-differentially-expressed-genes/alltreatments_DEG.tab)
