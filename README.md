@@ -7,7 +7,7 @@ For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) g
 ### Objectives
 
 1. Identify differential expression between samples exposed to control and ocean acidification conditions
-2. Determine if responses to stress conditions vary in male and female specimens
+2. Characterize gene ontology information associated with differential gene expression
 3. Understand basic bioninformatic analysis techniques (FastQC, MultiQC, BLAST, etc.)
 4. Create reproducible protocols for anlaysis
 5. Produce a written report of findings
@@ -32,19 +32,25 @@ For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) g
 - [Rerun `kallisto quant` and DESeq2 with new values](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-11-29-oly-gonad-OA-part5-rerun-kallisto-and-DESeq2.ipynb)
 
 **Week 9**
-- ??
+- [Gene enrichment analysis](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-11-30-oly-gonad-OA-part6-enrichment-analysis.ipynb)
+
+**Week 10**
+- [Interpret gene enrichment output from DAVID](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-12-12-oly-gonad-OA-part7-REVIGO.ipynb)
 
 ### Directory Structure
 For more information regarding each subdirectory, see that subdirectory's `README.md` file
 
-`data/` (some files in [`.gitignore`](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/.gitignore), but directory on local machine includes the following)
+[`data/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/data)
+
+Some files in [`.gitignore`](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/.gitignore), but directory on local machine includes the following files:
+
 > *O. lurida* .fastq files
 
 > *O. lurida* transcriptome
 
-> `kallisto quant` count data (.txt files)
+> [`kallisto quant` count data (.txt files)](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/data/2016-11-16_count_data)
 
-> `kallisto quant` count data from 11-29-2016 (.txt files)
+> [`kallisto quant` count data from 11-29-2016 (.txt files)](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/data/2016-11-29_count_data)
 
 [`analyses/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses)
 > [oly_oa_gonad_FASTQC](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_FASTQC): *O. lurida* analysis reports from FastQC interactive application
@@ -53,33 +59,53 @@ For more information regarding each subdirectory, see that subdirectory's `READM
 
 > [oly_oa_gonad_multiqc](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_MultiQC): FastQC analyses compiled into one report using MultiQC
 
-> [blastx output](https://raw.githubusercontent.com/yaaminiv/yaaminiv-fish546-2016/master/analyses/blastx-11-14-best-matches) for best matches between *O. lurida* transcriptome and Uniprot database with gene ontology information
+> [oly_oa_gonad_blastx](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_blastx): Best matches between *O. lurida* transcriptome and Uniprot database with gene ontology information
 
-> `kallisto quant` analysis results
-  - [kallisto-female-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/kallisto-female-106): count data for Female_106 .fastq file
-  - [kallisto-male-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/kallisto-male-106): count data for Male_106 .fastq file
-  - [kallisto-female-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/kallisto-female-108): count data for Female_108 .fastq file
-  - [kallisto-male-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/kallisto-male-108): count data for Male_106 .fastq file
+> [irrelevant analyses](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/irrelevant-analyses): Folder with analyses not used in final results
+
+ > `kallisto quant` analysis results
+   - [kallisto-female-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/irrelevant-analyses/kallisto-female-106): count data for Female_106 .fastq file
+   - [kallisto-male-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/irrelevant-analyses/kallisto-male-106): count data for Male_106 .fastq file
+   - [kallisto-female-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/irrelevant-analyses/kallisto-female-108): count data for Female_108 .fastq file
+   - [kallisto-male-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/irrelevant-analyses/kallisto-male-108): count data for Male_108 .fastq file
   
-> [oly_oa_gonad_DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_DESeq2): R scripts, graphs and .tab files associated with DeSeq2 analysis
+ > [oly_oa_gonad_DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_DESeq2): R scripts, graphs and .tab files associated with DeSeq2 analysis
 
-> 11-29-2016 `kallisto quant` analysis results
-  - [11-29-kallisto-female-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/11-29-kallisto-female-106): revised count data for Female_106 .fastq file
-  - [11-29-kallisto-male-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/11-29-kallisto-male-106): revised count data for Male_106 .fastq file
-  - [11-29-kallisto-female-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/11-29-kallisto-female-108): revised count data for Female_108 .fastq file
-  - [11-29-kallisto-male-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/11-29-kallisto-male-108): revised count data for Male_106 .fastq file
+ > 11-29-2016 `kallisto quant` analysis results
+   - [11-29-kallisto-female-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/irrelevant-analyses/11-29-kallisto-female-106): revised count data for Female_106 .fastq file
+   - [11-29-kallisto-male-106](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/irrelevant-analyses/11-29-kallisto-male-106): revised count data for Male_106 .fastq file
+   - [11-29-kallisto-female-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/irrelevant-analyses/11-29-kallisto-female-108): revised count data for Female_108 .fastq file
+   - [11-29-kallisto-male-108](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/irrelevant-analyses/11-29-kallisto-male-108): revised count data for Male_106 .fastq file
+
+ > irrelevant DESeq2 files from 11-29-2016
+   - R scripts
+    - [female 106 vs. female 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/2016-11-29-female106-female108-DESeq2.R)
+    - [male 106 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/2016-11-29-male106-male108-DESeq2.R)
+    - [female 106 vs. male 106](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/2016-11-29-female106-male106-DESeq2.R)
+    - [female 108 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/2016-11-29-female108-male108-DESeq2.R)
+   - DESeq2 plots
+    - [female 106 vs. female 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/female106-female108.png)
+    - [male 106 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/male106-male108.png)
+    - [female 106 vs. male 106](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/female106-male106.png)
+    - [female 108 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/female108-male108.png)
   
 > [11-29-oly-oa-gonad-DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/11-29-oly-oa-gonad-DESeq2): revised R scripts, graphs and .tab files associated with DeSeq2 analysis
 
+> [oly_oa_gonad_GO_enrichment](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_GO_enrichment): Files, scripts and images associated with gene enrichment analysis in DAVID
+
+> [oly_oa_gonad_REVIGO](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_REVIGO): Scatterplots, tree maps, R scripts and term tables generated using REVIGO
+
 `scripts/`
-> empty as of 2016-10-20
+> [script](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/scripts/quiz7.sh) used in bash scripting tutorial
 
 [`tutorials/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/tutorials)
-> BLAST tutorial + acccompanying data files
+> [BLAST tutorial + acccompanying data files](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/tutorials/BLAST-tutorial)
 
-> DESeq2 tutorial + acccompanying data files
+> [DESeq2 tutorial + acccompanying data files](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/tutorials/DESeq2-tutorial)
 
-> CoGe tutorial + accompanying files
+> [CoGe tutorial + accompanying files](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/tutorials/COGE-tutorial)
+
+> [Bash scripting tutorial + accompanying files](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/tutorials/bash-scripting-tutorial)
 
 [`notebooks/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/notebooks)
 > Jupyter (iPython) notebooks that detail reproducible methods used for data analysis
