@@ -41,3 +41,16 @@ This subdirectory hosts the Jupyter (iPython) notebooks that detail reproducible
  - Male_106 vs. Male_108
  - Female_106 vs. Male_106
  - Female_108 vs. Male_108
+
+[`2016-11-30-oly-gonad-OA-part6-enrichment-analysis.ipynb`](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-11-30-oly-gonad-OA-part6-enrichment-analysis.ipynb)
+- Added gene ontology information to list of differentially expressed genes
+- Extracted Uniprot Accession codes
+- Created new file with extracted Uniprot Accession codes
+- Pasted codes into DAVID
+- Downloaded gene enrichment files from DAVID
+
+[`2016-12-12-oly-gonad-OA-part7-REVIGO.ipynb`](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-12-12-oly-gonad-OA-part7-REVIGO.ipynb)
+- Isolated Gene Ontology IDs and p-values from DAVID files
+- Pasted Gene Ontology IDs and p-values into REVIGO
+- Created scatterplot and tree maps
+- Downloaded R scripts and GO term tables
