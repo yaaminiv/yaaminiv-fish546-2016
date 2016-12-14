@@ -96,7 +96,7 @@ Some files in [`.gitignore`](https://github.com/yaaminiv/yaaminiv-fish546-2016/b
 > [oly_oa_gonad_REVIGO](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_REVIGO): Scatterplots, tree maps, R scripts and term tables generated using REVIGO
 
 `scripts/`
-> [script](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/scripts/quiz7.sh) used in bash scripting tutorial
+> [script used in bash scripting tutorial](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/scripts/quiz7.sh)
 
 [`tutorials/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/tutorials)
 > [BLAST tutorial + acccompanying data files](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/tutorials/BLAST-tutorial)
