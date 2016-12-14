@@ -1,0 +1,11 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0004842,"ubiquitin-protein transferase activity",0.087%,-5.823, 2.348,4.615,-2.8773,0.660,0.000,4842,0
+GO:0005509,"calcium ion binding",0.365%, 1.324, 6.225,5.237,-2.5515,0.700,0.000,5509,0
+GO:0004519,"endonuclease activity",1.510%, 6.417,-1.314,5.854,-1.8487,0.732,0.020,4519,0
+GO:0005516,"calmodulin binding",0.017%, 1.087,-6.625,3.914,-1.6516,0.699,0.037,5516,0
+GO:0005515,"protein binding",2.482%, 1.006,-0.239,6.070,-2.4757,0.755,0.056,5515,0
+GO:0003839,"gamma-glutamylcyclotransferase activity",0.010%,-5.909,-2.669,3.674,-1.3153,0.722,0.145,3839,0
+GO:0004672,"protein kinase activity",1.875%,-6.154, 0.136,5.948,-1.5267,0.708,0.213,4672,0
+GO:0004190,"aspartic-type endopeptidase activity",0.513%, 6.445, 0.768,5.385,-1.7165,0.731,0.252,4190,0
+GO:0008270,"zinc ion binding",3.455%,-0.022, 6.400,6.213,-1.6217,0.700,0.351,8270,0
+GO:0071889,"14-3-3 protein binding",0.001%,-0.251,-6.745,2.646,-1.5085,0.703,0.356,71889,0
