@@ -97,7 +97,7 @@ Some files in [`.gitignore`](https://github.com/yaaminiv/yaaminiv-fish546-2016/b
 
 [`results/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results)
 
-> [blastx](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/1-blastx):Matched contigs in *O. lurida* transcriptome with Uniprot Database and gene ontology information
+> [blastx](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/1-blastx): Matched contigs in *O. lurida* transcriptome with Uniprot Database and gene ontology information
 
 > [Differentially expressed genes from DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/2-DESeq2-differentially-expressed-genes): `.tab` file with genes and `.png` DESeq2 plot
 
