@@ -1,5 +1,5 @@
 # `results` Subdirectory Structure
-This subdirectory contains the final results from various analyses. Results are split into the following categories:
+This subdirectory contains the final project results, split into the following categories:
 
 [blastx](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/1-blastx)
 > - [blastx-11-14-best-matches](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/results/1-blastx/blastx-11-14-best-matches)
