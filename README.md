@@ -80,14 +80,14 @@ Some files in [`.gitignore`](https://github.com/yaaminiv/yaaminiv-fish546-2016/b
  - irrelevant DESeq2 files from 11-29-2016
   - R scripts
    - [female 106 vs. female 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/2016-11-29-female106-female108-DESeq2.R)
-    - [male 106 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/2016-11-29-male106-male108-DESeq2.R)
-    - [female 106 vs. male 106](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/2016-11-29-female106-male106-DESeq2.R)
-    - [female 108 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/2016-11-29-female108-male108-DESeq2.R)
+   - [male 106 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/2016-11-29-male106-male108-DESeq2.R)
+   - [female 106 vs. male 106](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/2016-11-29-female106-male106-DESeq2.R)
+   - [female 108 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/2016-11-29-female108-male108-DESeq2.R)
   - DESeq2 plots
    - [female 106 vs. female 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/female106-female108.png)
-    - [male 106 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/male106-male108.png)
-    - [female 106 vs. male 106](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/female106-male106.png)
-    - [female 108 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/female108-male108.png)
+   - [male 106 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/male106-male108.png)
+   - [female 106 vs. male 106](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/female106-male106.png)
+   - [female 108 vs. male 108](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/analyses/irrelevant-analyses/female108-male108.png)
   
 > [11-29-oly-oa-gonad-DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/11-29-oly-oa-gonad-DESeq2): revised R scripts, graphs and .tab files associated with DeSeq2 analysis
 
