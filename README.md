@@ -95,7 +95,17 @@ Some files in [`.gitignore`](https://github.com/yaaminiv/yaaminiv-fish546-2016/b
 
 > [oly_oa_gonad_REVIGO](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/analyses/oly_oa_gonad_REVIGO): Scatterplots, tree maps, R scripts and term tables generated using REVIGO
 
-`scripts/`
+[`results/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results)
+
+> [blastx](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/1-blastx):Matched contigs in *O. lurida* transcriptome with Uniprot Database and gene ontology information
+
+> [Differentially expressed genes from DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/2-DESeq2-differentially-expressed-genes): `.tab` file with genes and `.png` DESeq2 plot
+
+> [Gene enrichment analyses from DAVID](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/3-DAVID-gene-enrichment): `.tab` file with differentially expressed genes with associated sequences and Uniprot information, `.txt` files with Uniprot Accession codes, and several Functional Annotation tables from DAVID
+
+> [Gene ontology analysis in REVIGO](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/4-REVIGO-gene-ontology): Scatterplots, tree maps and tables for biological processes, cellular components and molecular function GO terms
+
+[`scripts/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/scripts)
 > [script used in bash scripting tutorial](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/scripts/quiz7.sh)
 
 [`tutorials/`](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/tutorials)
