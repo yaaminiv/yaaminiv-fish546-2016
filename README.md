@@ -1,4 +1,4 @@
-# Annotation of *Ostrea lurida* transcriptome
+# Annotation of *Ostrea lurida* transcriptome: analysis of gonads in control and ocean acidification conditions
 
 For my project, I will analyze four different Olympic oyster (*Ostrea lurida*) gonad nucleotide sequences with accompanying quality scores (.fastq files). These sequences are from male and female specimens, exposed to either control or ocean acidification conditions. I also have a previously assembled *O. lurida* transcriptome for comparison.
 
