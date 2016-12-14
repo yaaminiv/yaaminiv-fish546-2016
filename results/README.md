@@ -2,7 +2,7 @@
 This subdirectory contains the final results from various analyses. Results are split into the following categories:
 
 [blastx](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/1-blastx)
-> - blastx-11-14-best-matches
+> - [blastx-11-14-best-matches](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/results/1-blastx/blastx-11-14-best-matches)
     - Matched contigs in *O. lurida* transcriptome with Uniprot Database and gene ontology information
 
 [Differentially expressed genes from DESeq2](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/2-DESeq2-differentially-expressed-genes)
@@ -22,3 +22,4 @@ This subdirectory contains the final results from various analyses. Results are 
 [Gene ontology analysis in REVIGO](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/4-REVIGO-gene-ontology)
 > - Split into three subgroups: [biological processes](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/4-REVIGO-gene-ontology/biological_processes), [cellular components](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/4-REVIGO-gene-ontology/cellular_components) and [molecular function](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/results/4-REVIGO-gene-ontology/molecular_function).
 - Each subgroup has an associated scatterplot, tree map and table of GO terms
+- These files are interpreted in [this notebook](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-12-12-oly-gonad-OA-part7-REVIGO.ipynb).
