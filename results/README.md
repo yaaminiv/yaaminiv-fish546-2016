@@ -15,7 +15,7 @@ This subdirectory contains the final results from various analyses. Results are 
 - [Uniprot Accession codes for Gene List in DAVID](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/results/3-DAVID-gene-enrichment/converted_gene_list.txt)
 - [Functional Annotation Chart from DAVID](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/results/3-DAVID-gene-enrichment/GO_DAVID_annotation_table.txt)
   - The chart lists annotation terms and associated genes
-- [clustering](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/results/3-DAVID-gene-enrichment/GO_DAVID_clustering.txt)
+- [Functional Annotation Clustering from DAVID](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/results/3-DAVID-gene-enrichment/GO_DAVID_clustering.txt)
   - Similar annotations from the Functional Annotation Chart are grouped together for a more digestable report
 - [INTERPRO and Gene Ontology term entries with p-values ≥ 0.05](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/results/3-DAVID-gene-enrichment/Significant_Results.xlsx)
 
