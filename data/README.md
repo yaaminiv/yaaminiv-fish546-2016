@@ -3,11 +3,11 @@ While some files are in [`.gitignore`](https://github.com/yaaminiv/yaaminiv-fish
 
 > *O. lurida* .fastq files (.gitignore)
 
-See [this jupyter notebook](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-10-13-oly-gonad-OA-part-1.ipynb) to download data to the local machine.
+- See [this jupyter notebook](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-10-13-oly-gonad-OA-part-1.ipynb) to download data to the local machine.
 
 > *O. lurida* transcriptome (.gitignore)
 
-See [this jupyter notebook](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-10-28-oly-gonad-OA-part-2-BLAST.ipynb) to download data to the local machine.
+- See [this jupyter notebook](https://github.com/yaaminiv/yaaminiv-fish546-2016/blob/master/notebooks/2016-10-28-oly-gonad-OA-part-2-BLAST.ipynb) to download data to the local machine.
 
 > [`2016-11-16_count_data` (.txt files)](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/data/2016-11-16_count_data)
 
