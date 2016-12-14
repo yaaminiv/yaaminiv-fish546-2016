@@ -5,7 +5,7 @@ browseVignettes("DESeq2")
 library(DESeq2)
 
 #Step 2: Read in O. lurida count data
-data <- read.table("/Users/yaamini/Documents/yaaminiv-fish546-2016/data/2016-11-16-oly-gonad-oa-count-data-female106-male106.txt", header = T, sep = "\t")
+data <- read.table("/Users/yaamini/Documents/yaaminiv-fish546-2016/data/2016-11-16_count_data/2016-11-16-oly-gonad-oa-count-data-female106-male106.txt", header = T, sep = "\t")
 rownames(data) <- data$Feature_ID
 data <- data[,-1]
 
@@ -34,7 +34,7 @@ points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="violetre
 abline(h=c(-1,1), col="blue")
 
 #Step 7: Save plot as a new png file
-png("/Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/oly_oa_gonad_DESeq2/female106-male106.png", width = 800, height = 800)
+png("/Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/irrelevant-analyses/oly_oa_gonad_DESeq2/female106-male106.png", width = 800, height = 800)
 plot(tmp$baseMean, tmp$log2FoldChange, pch=20, cex=0.45, ylim=c(-3, 3), log="x", col="darkgray", main="Differentially Expressed Genes in Female_106 vs. Male_106  (pval <= 0.05)", xlab="mean of normalized counts", ylab="Log2 Fold Change")
 #Getting the significant points and plotting them again so they're a different color
 tmp.sig <- deseq2.res[!is.na(deseq2.res$padj) & deseq2.res$padj <= 0.05, ]
@@ -44,4 +44,4 @@ abline(h=c(-1,1), col="blue")
 dev.off()
 
 #Step 7: Create table with differentially expressed contigs
-write.table(tmp.sig, "/Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/oly_oa_gonad_DESeq2/female106-male106_DEG.tab", row.names = T)
+write.table(tmp.sig, "/Users/yaamini/Documents/yaaminiv-fish546-2016/analyses/irrelevant-analyses/oly_oa_gonad_DESeq2/female106-male106_DEG.tab", row.names = T)
