@@ -5,7 +5,7 @@ While some files are in [`.gitignore`](https://github.com/yaaminiv/yaaminiv-fish
 
 > *O. lurida* transcriptome (.gitignore)
 
-> `kallisto quant` count data (.txt files)
+> [`2016-11-16_count_data` (.txt files)](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/data/2016-11-16_count_data)
 
 - [Count data for all treatments](https://raw.githubusercontent.com/yaaminiv/yaaminiv-fish546-2016/master/data/2016-11-16-oly-gonad-oa-count-data.txt)
 - [Female_106 vs. Female_108 count data](https://raw.githubusercontent.com/yaaminiv/yaaminiv-fish546-2016/master/data/2016-11-16-oly-gonad-oa-count-data-female106-female108.txt)
@@ -13,7 +13,7 @@ While some files are in [`.gitignore`](https://github.com/yaaminiv/yaaminiv-fish
 - [Female_106 vs. Male_106 count data](https://raw.githubusercontent.com/yaaminiv/yaaminiv-fish546-2016/master/data/2016-11-16-oly-gonad-oa-count-data-female106-male106.txt)
 - [Female_108 vs. Male_108 count data](https://raw.githubusercontent.com/yaaminiv/yaaminiv-fish546-2016/master/data/2016-11-16-oly-gonad-oa-count-data-female108-male108.txt)
 
-> [11-29-2016 `kallisto quant` count data (.txt files)](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/data/2016-11-29-count-data)
+> [`2016-11-29_count_data` (.txt files)](https://github.com/yaaminiv/yaaminiv-fish546-2016/tree/master/data/2016-11-29-count-data)
 
 - [Count data for all treatments](https://raw.githubusercontent.com/yaaminiv/yaaminiv-fish546-2016/master/data/2016-11-29-count-data/2016-11-29-oly-gonad-oa-count-data.txt)
 - [Female_106 vs. Female_108 count data](https://raw.githubusercontent.com/yaaminiv/yaaminiv-fish546-2016/master/data/2016-11-29-count-data/2016-11-29-oly-gonad-oa-count-data-female106-female108.txt)
